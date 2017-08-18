@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/amaysim_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        style="@style/title_orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dp_20"
+        android:text="@string/acct_title"/>
+
+    <TextView
+        android:id="@+id/acct_payment_label"
+        style="@style/label_normal_orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acct_payment_label" />
+
+    <TextView
+        android:id="@+id/payment"
+        style="@style/text_normal_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/name_label"
+        style="@style/label_normal_orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acct_name_label" />
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/text_normal_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/birthday_label"
+        style="@style/label_normal_orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acct_date_of_birth_label" />
+
+    <TextView
+        android:id="@+id/birthday"
+        style="@style/text_normal_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/contact_label"
+        style="@style/label_normal_orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acct_contact_num_label" />
+
+    <TextView
+        android:id="@+id/contact"
+        style="@style/text_normal_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/email_label"
+        style="@style/label_normal_orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acct_email_add_label" />
+
+    <TextView
+        android:id="@+id/email"
+        style="@style/text_normal_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

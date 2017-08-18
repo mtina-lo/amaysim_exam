@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">amaysim</string>
+
+    <string name="main_tab_home">Home</string>
+    <string name="main_tab_plan">My Plan</string>
+    <string name="main_tab_acct">Account</string>
+
+    <string name="home_credit_label">This months\'s charges</string>
+    <string name="home_data_label">Data</string>
+    <string name="home_data_capacity">%1$d/%2$d MB</string>
+    <string name="home_remaining_progress_label">%1$d Remaining...</string>
+
+    <string name="plan_title">My Plan</string>
+    <string name="plan_current_product_label">You are currently enjoying:</string>
+    <string name="plan_feature">Features:</string>
+    <string name="plan_unli_text_bool_label">Is unlimited text?</string>
+    <string name="plan_unli_talk_bool_label">Is unlimited talk?</string>
+    <string name="plan_unli_int_text_bool_lbl">Is unlimited international text?</string>
+    <string name="plan_unli_int_talk_bool_lbl">Is unlimited international talk?</string>
+    <string name="plan_price">Price:</string>
+
+    <string name="acct_title">Your Account</string>
+    <string name="acct_payment_label">Payment Method</string>
+    <string name="acct_name_label">Name</string>
+    <string name="acct_date_of_birth_label">Date of Birth</string>
+    <string name="acct_contact_num_label">Contact Number</string>
+    <string name="acct_email_add_label">Email Address</string>
+    <string name="acct_name">%1$s %2$s %3$s</string>
+
+    <string name="logout">Logout</string>
+
+    <string name="login_err">Please enter the right number</string>
+    <string name="login_msn">MSN:</string>
+    <string name="login">Login</string>
+</resources>

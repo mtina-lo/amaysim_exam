@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:src="@drawable/amaysim_logo" />
+
+        <LinearLayout
+            style="@style/amaysim_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/label_normal_orange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/login_msn" />
+
+            <EditText
+                android:id="@+id/msn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTintMode="@color/orange_amaysim"
+                android:inputType="phone" />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/orange_amaysim"
+                android:text="@string/login"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/sp_15" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

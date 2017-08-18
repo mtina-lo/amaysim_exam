@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/amaysim_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/title_orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dp_20"
+        android:text="@string/plan_title" />
+
+    <TextView
+        style="@style/label_normal_orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/plan_current_product_label" />
+
+    <TextView
+        android:id="@+id/product_name"
+        style="@style/text_normal_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/label_normal_orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/dp_10"
+        android:text="@string/plan_feature" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/unli_text_label"
+            style="@style/text_normal_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/plan_unli_text_bool_label" />
+
+        <CheckBox
+            android:id="@+id/unli_text_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/unli_text_label"
+            android:layout_alignParentRight="true"
+            android:buttonTint="@color/orange_amaysim"
+            android:enabled="false"/>
+
+        <TextView
+            android:id="@+id/unli_talk_label"
+            style="@style/text_normal_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/unli_text_label"
+            android:text="@string/plan_unli_talk_bool_label" />
+
+        <CheckBox
+            android:id="@+id/unli_talk_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/unli_talk_label"
+            android:layout_alignParentRight="true"
+            android:buttonTint="@color/orange_amaysim"
+            android:enabled="false" />
+
+        <TextView
+            android:id="@+id/unli_int_text_label"
+            style="@style/text_normal_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/unli_talk_label"
+            android:text="@string/plan_unli_int_text_bool_lbl" />
+
+        <CheckBox
+            android:id="@+id/unli_int_text_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/unli_int_text_label"
+            android:layout_alignParentRight="true"
+            android:buttonTint="@color/orange_amaysim"
+            android:enabled="false" />
+
+        <TextView
+            android:id="@+id/unli_int_talk_label"
+            style="@style/text_normal_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/unli_int_text_label"
+            android:text="@string/plan_unli_int_talk_bool_lbl" />
+
+        <CheckBox
+            android:id="@+id/unli_int_talk_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/unli_int_talk_label"
+            android:layout_alignParentRight="true"
+            android:buttonTint="@color/orange_amaysim"
+            android:enabled="false" />
+
+        <TextView
+            android:id="@+id/price_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/unli_int_talk_label"
+            android:paddingRight="@dimen/dp_5"
+            android:paddingTop="@dimen/dp_10"
+            android:text="@string/plan_price"
+            android:textColor="@color/orange_amaysim"
+            android:textSize="@dimen/sp_20" />
+
+        <TextView
+            android:id="@+id/price"
+            style="@style/text_normal_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/price_label"
+            android:layout_toRightOf="@id/price_label"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</LinearLayout>

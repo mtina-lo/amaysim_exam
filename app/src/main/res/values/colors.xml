@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_tab_off">#BB000000</color>
+    <color name="black_tab_on">#44000000</color>
+
+    <color name="orange_bg">#ff5500</color>
+    <color name="orange_amaysim">#e26415</color>
+    <color name="black_tab_normal">#242625</color>
+    <color name="black_tab_pressed">#3c3c3c</color>
+    <color name="black_text">#afb0b1</color>
+
+    <color name="green">#33FF33</color>
+</resources>

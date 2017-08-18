@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:src="@drawable/amaysim_logo"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/display_area"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls"
+        style="?metaButtonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_60"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:background="@color/black_tab_off"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/home_button"
+            style="?metaButtonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/home"
+            android:textColor="@android:color/white"
+            android:textOn="@string/main_tab_home"
+            android:textOff="@string/main_tab_home"
+            android:background="@drawable/tabs_toggle"
+            android:paddingTop="@dimen/dp_5"/>
+
+        <ToggleButton
+            android:id="@+id/plan_button"
+            style="?metaButtonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/sim"
+            android:textColor="@android:color/white"
+            android:textOn="@string/main_tab_plan"
+            android:textOff="@string/main_tab_plan"
+            android:background="@drawable/tabs_toggle"
+            android:paddingTop="@dimen/dp_5"/>
+
+        <ToggleButton
+            android:id="@+id/acct_button"
+            style="?metaButtonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/account"
+            android:textColor="@android:color/white"
+            android:textOn="@string/main_tab_acct"
+            android:textOff="@string/main_tab_acct"
+            android:background="@drawable/tabs_toggle"
+            android:paddingTop="@dimen/dp_5"/>
+
+    </LinearLayout>
+
+</LinearLayout>

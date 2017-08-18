@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/amaysim_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/msn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/title_orange"/>
+
+    <TextView
+        android:id="@+id/plan_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        style="@style/text_small_black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/dp_20"
+        android:text="@string/home_credit_label"
+        style="@style/text_small_black" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dp_20"
+        android:textColor="@color/orange_amaysim"
+        android:textSize="@dimen/sp_30" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_data_label"
+        android:textStyle="bold"
+        style="@style/label_normal_orange"/>
+
+    <TextView
+        android:id="@+id/data_capacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/text_small_black" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/data_cap_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_30"
+            android:progressDrawable="@drawable/home_progress_bar_green" />
+
+        <TextView
+            android:id="@+id/data_cap_progress_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sp_15" />
+    </RelativeLayout>
+
+</LinearLayout>
